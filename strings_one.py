@@ -26,6 +26,3 @@ def longest(phrase):
 
 def title_case(sentence):
     pass
-
-
-longest("ada asdaf ad")
