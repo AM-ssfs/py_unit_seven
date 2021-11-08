@@ -12,10 +12,10 @@ class MyTestCase(unittest.TestCase):
 
 
     def test_no_first_last(self):
-        self.assertEqual("ompute", strings_one.half_slice("computer"))
-        self.assertEqual("", strings_one.half_slice("hi"))
-        self.assertEqual("utterfl", strings_one.half_slice("butterfly"))
-        self.assertEqual("a", strings_one.half_slice("can"))
+        self.assertEqual("ompute", strings_one.no_first_last("computer"))
+        self.assertEqual("", strings_one.no_first_last("hi"))
+        self.assertEqual("utterfl", strings_one.no_first_last("butterfly"))
+        self.assertEqual("a", strings_one.no_first_last("can"))
 
     def test_longest_word(self):
         phrase1 = "Whether you think you can or you think you can't, you're right"
