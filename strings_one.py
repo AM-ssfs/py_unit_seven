@@ -23,6 +23,17 @@ def longest(phrase):
     return big
 
 
-
 def title_case(sentence):
-    pass
+    sentence.lower()
+    words = sentence.split(" ")
+    for x in range(len(words)):
+        first = words[x][0:1]
+        first = first.upper()
+        rest = words[x][1:]
+        words[x] = first+rest
+    sentence2 = " ".join(words)
+    return sentence2
+
+
+title_case("this is a sentence")
+
