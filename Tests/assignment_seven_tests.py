@@ -10,9 +10,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("hzbjquhuwgvzkjzggxaguhwgtm", assignment_seven.encode_decode(True, "this is a generic long sentence", "ostrich"))
 
     def test_decode_two(self):
-        self.assertEqual("airplane", assignment_seven.encode_decode(True, "zurwkmnl", "boat"))
-        self.assertEqual("unitseven", assignment_seven.encode_decode(True, "uvqlmrjaa", "assignment"))
-        self.assertEqual("unittestsareimportantwaystomakesurethatyourfunctionactsasexpected", assignment_seven.encode_decode(True, "qagcvpzpfyagttlbpccyasnwbvztwxcbwclpuycazbnssweepkaylvdhorvygnaaq", "encrypt"))
+        self.assertEqual("airplane", assignment_seven.encode_decode(False, "bwrimonx", "boat"))
+        self.assertEqual("unitseven", assignment_seven.encode_decode(False, "ufabyrhia", "assignment"))
+        self.assertEqual("unittestsareimportantwaystomakesurethatyourfunctionactsasexpected", assignment_seven.encode_decode(False, "xrkkrtlwwcicxfsstkycmzeajrdfdogjsgxwlckwdnujweaibrrctrhtvizgcrmhh", "decrypt"))
 
 
 
